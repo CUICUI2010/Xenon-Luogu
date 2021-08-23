@@ -85,4 +85,6 @@ button.selected[data-v-66021821]{
   background-color:transparent !important;
 }.container[data-v-46cb0950], .header-link[data-v-46cb0950]{
   color: #fff !important;
-}.card[data-v-796309f8], .inner-card[data-v-4b8033a4]{background-color: #222222 !important; color: #eeeeee !important;border-radius: 5px !important;}.lg-article{color: #eeeeee !important;background-color: rgba(34 ,34, 34,.95) !important;}
+}.card[data-v-796309f8], .inner-card[data-v-4b8033a4]{
+  background-color: #222222 !important; color: #eeeeee !important;border-radius: 5px !important;
+}.lg-article{color: #eeeeee !important;background-color: rgba(34 ,34, 34,.95) !important;}
