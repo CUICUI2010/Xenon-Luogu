@@ -10,3 +10,9 @@ Luogu default:
 New:
 
 ![](https://cdn.luogu.com.cn/upload/image_hosting/a2bcphjl.png)
+
+**To do list**:
+
+- Fix some bugs in specific pages
+- Add light mode
+- Add Settings
