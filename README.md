@@ -13,6 +13,6 @@ New:
 
 **To do list**:
 
-- Fix some bugs in specific pages
-- Add light mode
-- Add Settings
+- [ ] Fix some bugs in specific pages
+- [x] Add light mode
+- [ ] Add Settings
