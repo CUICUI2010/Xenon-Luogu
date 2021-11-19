@@ -124,80 +124,80 @@ if (false || (new RegExp("^((?!blog).)*https://www.luogu.org((?!blog).)*$")).tes
 		"    background-color: var(--lfe-color--primary) !important;"
 		"    color: white !important;"
 		"}"
-		".am-pagination>.am-active>a, .am-pagination>.am-active>a:focus, .am-pagination>".am-active>a:hover, .am-pagination>, .am-active>span, .am-pagination>.am-active>span:focus, .am-pagination>.am-active>span:hover {""
-		"    background-color: rgb(98, 47, 175) !important;
-		"    color: white !important;
-		"    border: none !important;
-		"}
-		"ul>li.selected>span[data-v-73965038] {
-		"    background-color: var(--lfe-color--primary) !important;
-		"    color: white !important;
-		"    padding: 5px !important;
-		"    border-radius: 5px !important;
-		"}
-		"li.am-active {
-		"    background-color: var(--lfe-color--primary) !important;
-		"    color: white !important;
-		"}
-		".am-pagination-centered > li.am-active {
-		"    background-color: transparent !important;
-		"}
-		".footer a[data-v-381c541a], .link[data-v-019a82aa], .text[data-v-019a82aa] {
-		"    color:rgba(255, 255, 255, .75) !important;
-		"}
-		"h1 {
-		"    font-weight: normal !important;
-		"}
-		"h2 {
-		"    font-weight: normal !important;
-		"}
-		"h3 {
-		"    font-weight: normal !important;
-		"}
-		"h4 {
-		"    font-weight: normal !important;
-		"}
-		"h5 {
-		"    font-weight: normal !important;
-		"}
-		"h6 {
-		"    font-weight: normal !important;
-		"}
-		"/*.am-comment-bd{ border-radius: 5px !important; }*/
-		" .header-logo[data-v-5d3ff779] {
-		"    display: none;
-		"}
-		"#exlg-dash {
-		"    background-color: rgb(98, 47, 175) !important;
-		"    box-shadow: 0 0 7px rgb(118, 67, 195) !important;
-		"}
-		".am-btn-primary {
-		"    background-color: rgb(98, 47, 175) !important;
-		"    border: none !important;
-		"}
-		".am-btn-danger {
-		"    background-color: rgb(61, 15, 235) !important;
-		"    border: none !important;
-		"}
-		".am-btn-success {
-		"    background-color: #128888 !important;
-		"    border-color: #128888 !important;
-		"    border: none !important;
-		"}
-		"button[data-v-72107c51] {
-		"    color: white !important;
-		"    background-color: rgb(98, 47, 175) !important;
-		"    transition: .3s ease-out;
-		"}
-		"button[data-v-72107c51]:hover {
-		"    color: white !important;
-		"    background-color: rgb(118, 67, 195) !important;
-		"}
+		".am-pagination>.am-active>a, .am-pagination>.am-active>a:focus, .am-pagination>.am-active>a:hover, .am-pagination>, .am-active>span, .am-pagination>.am-active>span:focus, .am-pagination>.am-active>span:hover {"
+		"    background-color: rgb(98, 47, 175) !important;"
+		"    color: white !important;"
+		"    border: none !important;"
+		"}"
+		"ul>li.selected>span[data-v-73965038] {"
+		"    background-color: var(--lfe-color--primary) !important;"
+		"    color: white !important;"
+		"    padding: 5px !important;"
+		"    border-radius: 5px !important;"
+		"}"
+		"li.am-active {"
+		"    background-color: var(--lfe-color--primary) !important;"
+		"    color: white !important;"
+		"}"
+		".am-pagination-centered > li.am-active {"
+		"    background-color: transparent !important;"
+		"}"
+		".footer a[data-v-381c541a], .link[data-v-019a82aa], .text[data-v-019a82aa] {"
+		"    color:rgba(255, 255, 255, .75) !important;"
+		"}"
+		"h1 {"
+		"    font-weight: normal !important;"
+		"}"
+		"h2 {"
+		"    font-weight: normal !important;"
+		"}"
+		"h3 {"
+		"    font-weight: normal !important;"
+		"}"
+		"h4 {"
+		"    font-weight: normal !important;"
+		"}"
+		"h5 {"
+		"    font-weight: normal !important;"
+		"}"
+		"h6 {"
+		"    font-weight: normal !important;"
+		"}"
+		"/*.am-comment-bd{ border-radius: 5px !important; }*/"
+		" .header-logo[data-v-5d3ff779] {"
+		"    display: none;"
+		"}"
+		"#exlg-dash {"
+		"    background-color: rgb(98, 47, 175) !important;"
+		"    box-shadow: 0 0 7px rgb(118, 67, 195) !important";"
+		"}"
+		".am-btn-primary {"
+		"    background-color: rgb(98, 47, 175) !important;"
+		"    border: none !important;"
+		"}"
+		".am-btn-danger {"
+		"    background-color: rgb(61, 15, 235) !important;"
+		"    border: none !important;"
+		"}"
+		".am-btn-success {"
+		"    background-color: #128888 !important;"
+		"    border-color: #128888 !important;"
+		"    border: none !important;"
+		"}"
+		"button[data-v-72107c51] {"
+		"    color: white !important;"
+		"    background-color: rgb(98, 47, 175) !important;"
+		"    transition: .3s ease-out;"
+		"}"
+		"button[data-v-72107c51]:hover {"
+		"    color: white !important;"
+		"    background-color: rgb(118, 67, 195) !important;"
+		"}"
 		"textarea .am-input-group-primary .am-input-group-btn>.am-btn, .am-input-group-primary .am-input-group-label, .am-input-group-primary.am-input-group .am-form-field .am-form-group {"
-		"    border-color: rgb(98, 47, 175) !important;
-		"    border-radius: 5px !important;
-		"    box-shadow: 5px 5px 5px #cccccc;
-		"}
+		"    border-color: rgb(98, 47, 175) !important;"
+		"    border-radius: 5px !important;"
+		"    box-shadow: 5px 5px 5px #cccccc;"
+		"}"
 		"input:checked+label>.fa-input[data-v-b9708d54], input:enabled+label:hover>.fa-input[data-v-b9708d54] {"
 		"    color: rgb(98, 47, 175) !important;"
 		"}"
