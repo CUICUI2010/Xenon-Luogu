@@ -1,3 +1,4 @@
+/*rgb(52 111 219)*/
 span[style="background: rgb(52, 152, 219); color: rgb(255, 255, 255);"]{
     background: rgb(52, 111, 219) !important;
 }
@@ -17,7 +18,7 @@ span[style="color: rgb(255, 255, 255); background: rgb(52, 152, 219);"] {
     color: transparent !important;
 }
 a.icon-btn:hover {
-    color: #eee !Important;
+    color: inherit !Important;
 }
 /*.exlg-window{
     transition: .3s ease !important;
@@ -57,8 +58,8 @@ a.icon-btn:hover {
     border-bottom: none !Important;
 }
 .lfe-vars {
-    --lfe-color--primary: #605ff4 !important;
-    --lfe-color--other: #5b2ccd !important;
+    --lfe-color--primary: /*[[primarycolor]]*/ !important;
+    --lfe-color--other: /*[[othercolor]]*/ !important;
 }
 .am-pagination>li>a, .am-pagination>li>span {
     border-radius: 30px !important;
