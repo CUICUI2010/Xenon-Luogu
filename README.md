@@ -1,18 +1,7 @@
-# Luogu-UI
-A Luogu dark theme.
+# Xenon Luogu
 
-## Changes
+这是一个 [洛谷](https://www.luogu.com.cn/) 的样式。
 
-Luogu default:
+文件包含 Tampermonkey 的 `userscript.js` 和 Stylus 的 CSS。
 
-![](https://cdn.luogu.com.cn/upload/image_hosting/dwdmlty7.png)
-
-New:
-
-![](https://cdn.luogu.com.cn/upload/image_hosting/a2bcphjl.png)
-
-**To do list**:
-
-- [ ] Fix some bugs in specific pages
-- [x] Add light mode
-- [ ] Add Settings
+主题：<https://www.luogu.com.cn/theme/design/50125>
