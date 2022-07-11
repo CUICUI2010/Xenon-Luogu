@@ -9,10 +9,12 @@
 // @include       http://*.www.luogu.com.cn/*
 // @include       https://*.www.luogu.com.cn/*
 // @run-at        document-start
-// @version       0.20220225105834
+// @version       0.20220626050457
 // ==/UserScript==
 (function() {var css = [
+	".lfe-vars {--lfe-color--primary: #2AA4EC !important;--lfe-color--other: #205D6A !important;}",
 	"/*rgb(52 111 219)*/",
+	".header-layout.tiny[data-v-109e0409]{background:transparent !important;}",
 	"span[style=\"background: rgb(52, 152, 219); color: rgb(255, 255, 255);\"]{",
 	"    background: rgb(52, 111, 219) !important;",
 	"}",
@@ -33,6 +35,9 @@
 	"}",
 	"a.icon-btn:hover {",
 	"    color: inherit !Important;",
+	"}",
+	".user-nav[data-v-258e49ac] {",
+	"    color: #eee !important;",
 	"}",
 	"/*.exlg-window{",
 	"    transition: .3s ease !important;",
@@ -70,10 +75,6 @@
 	".am-comment-bd {",
 	"    border-radius: 0px 0px 8px 8px;",
 	"    border-bottom: none !Important;",
-	"}",
-	".lfe-vars {",
-	"    --lfe-color--primary: #0080FF !important;",
-	"    --lfe-color--other: #5D00BA !important;",
 	"}",
 	".am-pagination>li>a, .am-pagination>li>span {",
 	"    border-radius: 30px !important;",
@@ -122,7 +123,7 @@
 	".selected[data-v-6bfea97f] {",
 	"    background-color: var(--lfe-color--primary) !important;",
 	"}",
-	".progress-frame > div {",
+	".progress-frame > div[data-v-47712372] {",
 	"    background-color: var(--lfe-color--primary) !important;",
 	"}",
 	".main-container > main.lfe-body {",
@@ -144,6 +145,14 @@
 	"    border: none !important;",
 	"    color: #fff !important;",
 	"    font-weight: unset !important;",
+	"}",
+	".header-layout.tiny{",
+	"    color: #eee !important;",
+	"    background: transparent !important;",
+	"    height: 70px !important;",
+	"}",
+	".header-link[data-v-e6ccd65e]{",
+	"    color: #eee !important;",
 	"}",
 	".menu[style=\"--main-color:#3498db;\"]{",
 	"    --main-color: var(--lfe-color--primary) !important;",
@@ -619,6 +628,12 @@
 	"    strong, .lfe-body, .lfe-form-sz-middle {",
 	"        color: #eeeeee !important;",
 	"    }",
+	"    .info-content[data-v-11e78d6a]{",
+	"        color: #eee !important;",
+	"    }",
+	"    .container>.tag-select-area .section[data-v-5da78937]{",
+	"        border-bottom-color: #444 !Important;",
+	"    }",
 	"    .popup[data-v-1d675dd8], .am-modal-dialog {",
 	"        background-color: #333 !important;",
 	"        color: #eeeeee !important;",
@@ -869,6 +884,15 @@
 	"    .mp-preview-content[data-v-6d5597b1]{",
 	"        color: #eee !important;",
 	"    }",
+	"    .container>.menu-container[data-v-5da78937], .item[data-v-4d6dca7a] {",
+	"        border-bottom-color: #444 !Important;",
+	"    }",
+	"    .item[data-v-4d6dca7a]:hover{",
+	"        background: #444 !Important;",
+	"    }",
+	"  li[data-v-56d0228a]:hover{",
+	"    background: #555 !important;",
+	"  }",
 	"}"
 ].join("\n");
 if (typeof GM_addStyle != "undefined") {
