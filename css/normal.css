@@ -106,6 +106,9 @@ div[data-v-27b2cd59],nav[data-v-27b2cd59] {
 pre[data-v-52f2d52f] {
 	font-family:Consolas !important;
 }
+.katex .mathit {
+    font-family: KaTeX_Math !important;
+}
 .card[data-v-796309f8] {
 	border-radius:5px !important;
 }
